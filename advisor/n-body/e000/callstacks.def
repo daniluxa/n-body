@@ -1,0 +1,208 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      4706	    0	      0	                          mainCRTStartup	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	4706	5	0	10	0	0	0	0	0	0	0	0
+         2	        -1	    337584	    0	      1	                      RtlUserThreadStart	C:\windows\SYSTEM32\ntdll.dll	337552	72	0	1	0	0	0	0	0	0	0	0
+         3	         2	     95043	    0	      1	                     BaseThreadInitThunk	C:\windows\System32\KERNEL32.DLL	95024	67	0	5	0	0	0	0	0	0	0	0
+         4	         3	     27613	    0	      0	                          mainCRTStartup	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	27600	19	0	10	0	0	0	0	0	0	0	0
+         5	         4	     26797	    0	      0	                      __scrt_common_main	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	26784	19	0	11	0	0	0	0	0	0	0	0
+         6	         5	     27117	    0	      0	                  __scrt_common_main_seh	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	26816	414	0	12	0	0	0	0	0	0	0	0
+         7	         6	     27464	    0	      0	                             invoke_main	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	27408	62	0	13	0	0	0	0	0	0	0	0
+         8	         7	     21225	    0	      0	                                    main	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	21088	222	0	14	0	0	0	0	0	0	0	0
+         9	         8	     10642	    0	      0	                      GSimulation::start	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	10336	1985	0	19	0	0	0	0	0	0	0	0
+        10	       174	      8752	    1	      0	  [Loop at line 119 in compute_p_energy]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8370	399	8769	25	0	0	0	0	0	0	0	0
+        11	        10	      7661	    0	      0	                     sum_with_correction	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	7584	111	0	29	0	0	0	0	0	0	0	0
+        12	       174	      8727	    1	      0	  [Loop at line 119 in compute_p_energy]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8370	399	8769	25	0	0	0	0	0	0	0	0
+        13	       177	     11140	    1	      0	[Loop at line 213 in GSimulation::start]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	11064	1068	12132	30	0	0	0	0	0	0	0	0
+        14	       180	      9232	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        15	        14	     16418	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16384	41	0	48	0	0	0	0	0	0	0	0
+        16	        15	    864931	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        17	        16	    516977	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+        18	        15	    864342	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        19	       180	      9175	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        20	        19	     16418	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16384	41	0	48	0	0	0	0	0	0	0	0
+        21	        20	    864442	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        22	       180	      9197	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        23	        22	     16418	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16384	41	0	48	0	0	0	0	0	0	0	0
+        24	        23	    864620	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        25	        24	   1522944	    0	      0	                        func@0x180173d00	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	1522944	90	0	6	0	0	0	0	0	0	0	0
+        26	       180	      9378	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        27	        26	     16418	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16384	41	0	48	0	0	0	0	0	0	0	0
+        28	        27	    864717	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        29	       180	      9546	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        30	       180	      9295	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        31	        20	    864931	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        32	        31	    515147	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+        33	       180	      9665	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        34	       177	     11240	    1	      0	[Loop at line 213 in GSimulation::start]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	11064	1068	12132	30	0	0	0	0	0	0	0	0
+        35	       190	      8752	    1	      0	  [Loop at line 119 in compute_p_energy]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8370	399	8769	25	0	0	0	0	0	0	0	0
+        36	        35	      7642	    0	      0	                     sum_with_correction	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	7584	111	0	29	0	0	0	0	0	0	0	0
+        37	        16	    514432	    0	      0	                        func@0x18007d980	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514432	4	0	7	0	0	0	0	0	0	0	0
+        38	        22	      4526	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	4526	5	0	48	0	0	0	0	0	0	0	0
+        39	        23	    864931	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        40	        39	    514548	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+        41	       180	      9624	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        42	        41	     16418	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16384	41	0	48	0	0	0	0	0	0	0	0
+        43	        42	    864833	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        44	        27	    864372	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        45	        42	    864893	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        46	        42	    864603	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        47	        39	    514799	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+        48	       190	      8647	    1	      0	  [Loop at line 119 in compute_p_energy]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8370	399	8769	25	0	0	0	0	0	0	0	0
+        49	       180	      9278	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        50	        49	     16455	    0	      0	                                    sqrt	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16448	19	0	51	0	0	0	0	0	0	0	0
+        51	        41	     16398	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16384	41	0	48	0	0	0	0	0	0	0	0
+        52	        15	    864202	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        53	        27	    864620	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        54	        53	   1522964	    0	      0	                        func@0x180173d00	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	1522944	90	0	6	0	0	0	0	0	0	0	0
+        55	       180	      9262	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        56	       180	      9501	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        57	        56	     16418	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16384	41	0	48	0	0	0	0	0	0	0	0
+        58	        57	    864224	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        59	        23	    864239	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        60	        35	      7647	    0	      0	                     sum_with_correction	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	7584	111	0	29	0	0	0	0	0	0	0	0
+        61	        27	    864889	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        62	        57	    864621	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        63	        20	    864496	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        64	        39	    516694	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+        65	       180	      9274	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        66	       180	      9283	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+        67	        57	    864889	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        68	        15	    864347	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        69	        57	    864451	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        70	       177	     11656	    1	      0	[Loop at line 213 in GSimulation::start]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	11064	1068	12132	30	0	0	0	0	0	0	0	0
+        71	        70	    471071	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\windows\SYSTEM32\MSVCP140D.dll	470640	559	0	8	0	0	0	0	0	0	0	0
+        72	        71	    530161	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\windows\SYSTEM32\MSVCP140D.dll	530016	161	0	18	0	0	0	0	0	0	0	0
+        73	        72	    127552	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\windows\SYSTEM32\MSVCP140D.dll	126864	737	0	20	0	0	0	0	0	0	0	0
+        74	        73	    100030	    0	      1	                        func@0x180017eb0	C:\windows\SYSTEM32\MSVCP140D.dll	97968	2125	0	24	0	0	0	0	0	0	0	0
+        75	       165	    119953	    1	      1	[Loop@0x18001d45c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Rep]	C:\windows\SYSTEM32\MSVCP140D.dll	119900	56	0	34	0	0	0	0	0	0	0	0
+        76	        75	    111301	    0	      1	                        func@0x18001b28f	C:\windows\SYSTEM32\MSVCP140D.dll	111247	106	0	36	0	0	0	0	0	0	0	0
+        77	        76	    131849	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\windows\SYSTEM32\MSVCP140D.dll	131728	135	0	37	0	0	0	0	0	0	0	0
+        78	        77	     72978	    0	      1	                        func@0x180011bf0	C:\windows\SYSTEM32\MSVCP140D.dll	72688	703	0	38	0	0	0	0	0	0	0	0
+        79	        78	     24446	    0	      1	                        func@0x180005f5f	C:\windows\SYSTEM32\MSVCP140D.dll	24415	65	0	39	0	0	0	0	0	0	0	0
+        80	        79	    758881	    0	      1	                                   fputc	C:\windows\SYSTEM32\ucrtbased.dll	758832	73	0	15	0	0	0	0	0	0	0	0
+        81	        80	    758401	    0	      1	                        func@0x1800b8fb0	C:\windows\SYSTEM32\ucrtbased.dll	757680	757	0	16	0	0	0	0	0	0	0	0
+        82	        81	    758638	    0	      1	                        func@0x1800b9300	C:\windows\SYSTEM32\ucrtbased.dll	758528	186	0	21	0	0	0	0	0	0	0	0
+        83	        82	   1053889	    0	      1	                        func@0x180101490	C:\windows\SYSTEM32\ucrtbased.dll	1053840	55	0	22	0	0	0	0	0	0	0	0
+        84	        83	   1051533	    0	      1	                        func@0x180100960	C:\windows\SYSTEM32\ucrtbased.dll	1050976	601	0	23	0	0	0	0	0	0	0	0
+        85	        84	   1052828	    0	      1	                        func@0x180100e20	C:\windows\SYSTEM32\ucrtbased.dll	1052192	676	0	28	0	0	0	0	0	0	0	0
+        86	        85	   1417046	    0	      1	                        func@0x180159be0	C:\windows\SYSTEM32\ucrtbased.dll	1416160	915	0	44	0	0	0	0	0	0	0	0
+        87	        86	   1418188	    0	      1	                        func@0x180159f80	C:\windows\SYSTEM32\ucrtbased.dll	1417088	1744	0	45	0	0	0	0	0	0	0	0
+        88	       169	   1414514	    1	      1	  [Loop@0x18015948e in func@0x1801593f0]	C:\windows\SYSTEM32\ucrtbased.dll	1414286,1414562,1414621	233,26,5	0	46	0	0	0	0	0	0	0	0
+        89	        88	    208789	    0	      1	                               WriteFile	C:\windows\System32\KERNELBASE.dll	208672	179	0	17	0	0	0	0	0	0	0	0
+        90	        89	    643300	    0	      1	                             NtWriteFile	C:\windows\SYSTEM32\ntdll.dll	643280	21	0	3	0	0	0	0	0	0	0	0
+        91	        42	    864539	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        92	        20	    864239	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        93	        15	    864465	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        94	        31	    515139	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+        95	        15	    864504	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        96	        42	    864667	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        97	        42	     37590	    0	      0	                      [Import thunk pow]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	37590	6	0	52	0	0	0	0	0	0	0	0
+        98	        57	    864403	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+        99	        57	    864496	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       100	       177	     11453	    1	      0	[Loop at line 213 in GSimulation::start]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	11064	1068	12132	30	0	0	0	0	0	0	0	0
+       101	       100	     15243	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	14800	865	0	53	0	0	0	0	0	0	0	0
+       102	       101	    546359	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\windows\SYSTEM32\MSVCP140D.dll	546288	77	0	40	0	0	0	0	0	0	0	0
+       103	       102	     81627	    0	      1	                        func@0x180013e8f	C:\windows\SYSTEM32\MSVCP140D.dll	81551	297	0	41	0	0	0	0	0	0	0	0
+       104	       103	     51270	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::_Pnavail	C:\windows\SYSTEM32\MSVCP140D.dll	51248	56	0	42	0	0	0	0	0	0	0	0
+       105	        27	    864202	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       106	        31	    515051	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       107	        16	    515131	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       108	        39	    514990	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       109	        41	      4526	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	4526	5	0	48	0	0	0	0	0	0	0	0
+       110	        16	    515101	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       111	        16	    518618	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       112	       111	   1522944	    0	      0	                        func@0x180173d00	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	1522944	90	0	6	0	0	0	0	0	0	0	0
+       113	        35	      7621	    0	      0	                     sum_with_correction	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	7584	111	0	29	0	0	0	0	0	0	0	0
+       114	        57	    864408	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       115	        26	     16398	    0	      0	                        pow<float,int,0>	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16384	41	0	48	0	0	0	0	0	0	0	0
+       116	        20	    864620	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       117	       116	   1522964	    0	      0	                        func@0x180173d00	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	1522944	90	0	6	0	0	0	0	0	0	0	0
+       118	        49	     16465	    0	      0	                                    sqrt	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	16448	19	0	51	0	0	0	0	0	0	0	0
+       119	        27	    864875	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       120	       180	      9166	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+       121	        57	    864469	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       122	       190	      8545	    1	      0	  [Loop at line 119 in compute_p_energy]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8370	399	8769	25	0	0	0	0	0	0	0	0
+       123	        16	    514661	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       124	        57	    864061	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       125	        27	    864399	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       126	        42	    864399	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       127	        16	    515143	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       128	        15	    864372	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       129	        20	    864631	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       130	       190	      8727	    1	      0	  [Loop at line 119 in compute_p_energy]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8370	399	8769	25	0	0	0	0	0	0	0	0
+       131	        15	    864496	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       132	        31	    515014	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       133	        23	    864347	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       134	       180	      9349	    1	      0	        [Loop at line 144 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8966	729	9695	31	0	0	0	0	0	0	0	0
+       135	        42	     29760	    0	      0	                                     pow	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	29760	14	0	9	0	0	0	0	0	0	0	0
+       136	        23	     37590	    0	      0	                      [Import thunk pow]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	37590	6	0	52	0	0	0	0	0	0	0	0
+       137	        16	    516969	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       138	        16	    514901	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       139	        31	    514799	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       140	        23	    864202	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       141	        27	    864167	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       142	        31	    516593	    0	      0	                        func@0x18007d984	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	514436	4208	0	4	0	0	0	0	0	0	0	0
+       143	        57	    864530	    0	      0	                        func@0x1800d2f24	C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\libmmdd.dll	864036	928	0	2	0	0	0	0	0	0	0	0
+       144	       177	     11970	    1	      0	[Loop at line 213 in GSimulation::start]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	11064	1068	12132	30	0	0	0	0	0	0	0	0
+       145	       144	    471631	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\windows\SYSTEM32\MSVCP140D.dll	471200	559	0	43	0	0	0	0	0	0	0	0
+       146	       145	    530161	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\windows\SYSTEM32\MSVCP140D.dll	530016	161	0	18	0	0	0	0	0	0	0	0
+       147	       146	    127552	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\windows\SYSTEM32\MSVCP140D.dll	126864	737	0	20	0	0	0	0	0	0	0	0
+       148	       147	     99923	    0	      1	                        func@0x180017eb0	C:\windows\SYSTEM32\MSVCP140D.dll	97968	2125	0	24	0	0	0	0	0	0	0	0
+       149	       167	    119834	    1	      1	[Loop@0x18001d3cc in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\windows\SYSTEM32\MSVCP140D.dll	119756	81	0	49	0	0	0	0	0	0	0	0
+       150	       149	    111301	    0	      1	                        func@0x18001b28f	C:\windows\SYSTEM32\MSVCP140D.dll	111247	106	0	36	0	0	0	0	0	0	0	0
+       151	       150	    131849	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\windows\SYSTEM32\MSVCP140D.dll	131728	135	0	37	0	0	0	0	0	0	0	0
+       152	       151	     72978	    0	      1	                        func@0x180011bf0	C:\windows\SYSTEM32\MSVCP140D.dll	72688	703	0	38	0	0	0	0	0	0	0	0
+       153	       152	     24446	    0	      1	                        func@0x180005f5f	C:\windows\SYSTEM32\MSVCP140D.dll	24415	65	0	39	0	0	0	0	0	0	0	0
+       154	       153	    758881	    0	      1	                                   fputc	C:\windows\SYSTEM32\ucrtbased.dll	758832	73	0	15	0	0	0	0	0	0	0	0
+       155	       154	    758401	    0	      1	                        func@0x1800b8fb0	C:\windows\SYSTEM32\ucrtbased.dll	757680	757	0	16	0	0	0	0	0	0	0	0
+       156	       155	    758638	    0	      1	                        func@0x1800b9300	C:\windows\SYSTEM32\ucrtbased.dll	758528	186	0	21	0	0	0	0	0	0	0	0
+       157	       156	   1053889	    0	      1	                        func@0x180101490	C:\windows\SYSTEM32\ucrtbased.dll	1053840	55	0	22	0	0	0	0	0	0	0	0
+       158	       157	   1051533	    0	      1	                        func@0x180100960	C:\windows\SYSTEM32\ucrtbased.dll	1050976	601	0	23	0	0	0	0	0	0	0	0
+       159	       158	   1052828	    0	      1	                        func@0x180100e20	C:\windows\SYSTEM32\ucrtbased.dll	1052192	676	0	28	0	0	0	0	0	0	0	0
+       160	       159	   1417046	    0	      1	                        func@0x180159be0	C:\windows\SYSTEM32\ucrtbased.dll	1416160	915	0	44	0	0	0	0	0	0	0	0
+       161	       160	   1418188	    0	      1	                        func@0x180159f80	C:\windows\SYSTEM32\ucrtbased.dll	1417088	1744	0	45	0	0	0	0	0	0	0	0
+       162	       171	   1414514	    1	      1	  [Loop@0x18015948e in func@0x1801593f0]	C:\windows\SYSTEM32\ucrtbased.dll	1414286,1414562,1414621	233,26,5	0	46	0	0	0	0	0	0	0	0
+       163	       162	    208789	    0	      1	                               WriteFile	C:\windows\System32\KERNELBASE.dll	208672	179	0	17	0	0	0	0	0	0	0	0
+       164	       163	    643300	    0	      1	                             NtWriteFile	C:\windows\SYSTEM32\ntdll.dll	643280	21	0	3	0	0	0	0	0	0	0	0
+       165	        74	    119900	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Rep	C:\windows\SYSTEM32\MSVCP140D.dll	119872	113	0	35	0	0	0	0	0	0	0	0
+       166	        74	    119953	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Rep	C:\windows\SYSTEM32\MSVCP140D.dll	119872	113	0	35	0	0	0	0	0	0	0	0
+       167	       148	    119756	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\windows\SYSTEM32\MSVCP140D.dll	119728	138	0	50	0	0	0	0	0	0	0	0
+       168	       148	    119834	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\windows\SYSTEM32\MSVCP140D.dll	119728	138	0	50	0	0	0	0	0	0	0	0
+       169	        87	   1414286	    0	      1	                        func@0x1801593f0	C:\windows\SYSTEM32\ucrtbased.dll	1414128	555	0	47	0	0	0	0	0	0	0	0
+       170	        87	   1414514	    0	      1	                        func@0x1801593f0	C:\windows\SYSTEM32\ucrtbased.dll	1414128	555	0	47	0	0	0	0	0	0	0	0
+       171	       161	   1414286	    0	      1	                        func@0x1801593f0	C:\windows\SYSTEM32\ucrtbased.dll	1414128	555	0	47	0	0	0	0	0	0	0	0
+       172	       161	   1414514	    0	      1	                        func@0x1801593f0	C:\windows\SYSTEM32\ucrtbased.dll	1414128	555	0	47	0	0	0	0	0	0	0	0
+       173	         9	      8348	    0	      0	                        compute_p_energy	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8288	556	0	26	0	0	0	0	0	0	0	0
+       174	       173	      8370	    1	      0	  [Loop at line 117 in compute_p_energy]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8348	442	8790	27	0	0	0	0	0	0	0	0
+       175	         9	      8752	    0	      0	                        compute_p_energy	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8288	556	0	26	0	0	0	0	0	0	0	0
+       176	         9	      8727	    0	      0	                        compute_p_energy	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8288	556	0	26	0	0	0	0	0	0	0	0
+       177	         8	     11064	    0	      0	                      GSimulation::start	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	10336	1985	0	19	0	0	0	0	0	0	0	0
+       178	         8	     11140	    0	      0	                      GSimulation::start	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	10336	1985	0	19	0	0	0	0	0	0	0	0
+       179	        13	      8869	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       180	       179	      8966	    1	      0	        [Loop at line 138 in computeAcc]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8869	847	9716	33	0	0	0	0	0	0	0	0
+       181	        13	      9232	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       182	        13	      9175	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       183	        13	      9197	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       184	        13	      9378	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       185	        13	      9546	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       186	        13	      9295	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       187	        13	      9665	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       188	         8	     11240	    0	      0	                      GSimulation::start	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	10336	1985	0	19	0	0	0	0	0	0	0	0
+       189	        34	      8348	    0	      0	                        compute_p_energy	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8288	556	0	26	0	0	0	0	0	0	0	0
+       190	       189	      8370	    1	      0	  [Loop at line 117 in compute_p_energy]	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8348	442	8790	27	0	0	0	0	0	0	0	0
+       191	        34	      8752	    0	      0	                        compute_p_energy	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8288	556	0	26	0	0	0	0	0	0	0	0
+       192	        13	      9624	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       193	        34	      8647	    0	      0	                        compute_p_energy	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8288	556	0	26	0	0	0	0	0	0	0	0
+       194	        13	      9278	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       195	        13	      9262	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       196	        13	      9501	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       197	        13	      9274	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       198	        13	      9283	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       199	         8	     11656	    0	      0	                      GSimulation::start	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	10336	1985	0	19	0	0	0	0	0	0	0	0
+       200	         8	     11453	    0	      0	                      GSimulation::start	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	10336	1985	0	19	0	0	0	0	0	0	0	0
+       201	        13	      9166	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       202	        34	      8545	    0	      0	                        compute_p_energy	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8288	556	0	26	0	0	0	0	0	0	0	0
+       203	        34	      8727	    0	      0	                        compute_p_energy	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8288	556	0	26	0	0	0	0	0	0	0	0
+       204	        13	      9349	    0	      0	                              computeAcc	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	8848	873	0	32	0	0	0	0	0	0	0	0
+       205	         8	     11970	    0	      0	                      GSimulation::start	C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe	10336	1985	0	19	0	0	0	0	0	0	0	0
+       206	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	55	0	0	0	0	0	0	0	0

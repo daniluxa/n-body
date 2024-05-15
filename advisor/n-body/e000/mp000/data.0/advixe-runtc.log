@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2024/05/15 10:00:34</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\mp000\mp000.advixe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:34 2024</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\shumkin\documents\github\education\hps\n-body\x64\debug\n-body.exe</arg>
+  <arg>23280</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:34 2024</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\users\shumkin\documents\github\education\hps\n-body\x64\debug\n-body.exe</arg>
+  <arg>0x7ff6fb9c0000</arg>
+  <arg>0x7ff6fb9d6fff</arg>
+  <arg>1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:34 2024</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ffdb5760000</arg>
+  <arg>0x7ffdb5a55fff</arg>
+  <arg>2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:34 2024</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ffdb6d50000</arg>
+  <arg>0x7ffdb6e0cfff</arg>
+  <arg>3</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:34 2024</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ffdb7ed0000</arg>
+  <arg>0x7ffdb80c7fff</arg>
+  <arg>4</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:34 2024</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>0x7ffce9df0000</arg>
+  <arg>0x7ffce9ed0fff</arg>
+  <arg>5</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:35 2024</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>0x7ffd33550000</arg>
+  <arg>0x7ffd3357dfff</arg>
+  <arg>6</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:35 2024</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>0x7ffce9bc0000</arg>
+  <arg>0x7ffce9de0fff</arg>
+  <arg>7</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:35 2024</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140_1d.dll</arg>
+  <arg>0x7ffdb2b60000</arg>
+  <arg>0x7ffdb2b6efff</arg>
+  <arg>8</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:36 2024</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\program files (x86)\intel\oneapi\compiler\latest\bin\libmmdd.dll</arg>
+  <arg>0x7ffce9790000</arg>
+  <arg>0x7ffce9bbcfff</arg>
+  <arg>9</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:36 2024</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ffdb3220000</arg>
+  <arg>0x7ffdb3231fff</arg>
+  <arg>10</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:37 2024</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ffdb6e10000</arg>
+  <arg>0x7ffdb6eadfff</arg>
+  <arg>11</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:37 2024</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ffdb6b40000</arg>
+  <arg>0x7ffdb6c62fff</arg>
+  <arg>12</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:37 2024</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\users\shumkin\documents\github\education\hps\n-body\x64\debug\n-body.exe</arg>
+  <arg>1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>3</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>4</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>5</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>6</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>7</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140_1d.dll</arg>
+  <arg>8</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\program files (x86)\intel\oneapi\compiler\latest\bin\libmmdd.dll</arg>
+  <arg>9</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>10</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>11</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>12</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>c:\users\shumkin\documents\github\education\hps\n-body\x64\debug\n-body.exe</arg>
+  <arg>23280</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>NO_ANNOTATIONS</type>
+  <severity>WARNING</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Wed May 15 10:00:38 2024</timestamp>
+</msg>
+<msg id="34" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="35" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\mp000\mp000.advixe</arg>
+</msg>
+<msg id="36" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="37" tool="runtool">
+  <type>log-end</type>
+  <arg>2024/05/15 10:00:42</arg>
+</msg>
+
+</log>
+

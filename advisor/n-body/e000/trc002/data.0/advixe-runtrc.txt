@@ -1,0 +1,10 @@
+
+=== Start: [2024/05/15 10:21:25] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\trc002\trc002.advixe 
+Application exit code: 0 
+Result file: C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\trc002\trc002.advixe 
+Analysis completed
+=== End: [2024/05/15 10:21:51] === 

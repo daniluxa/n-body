@@ -1,0 +1,16 @@
+-r
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\trc002
+--return-app-exitcode
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--target-loops=n
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--cs-file=C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000/callstacks.def
+--jit-profiling
+--target-gpu=none
+--gpu-kernel-of-interest=*
+--app-working-dir=C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug
+--
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe
+1000
+10

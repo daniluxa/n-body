@@ -1,0 +1,9 @@
+-r
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\mp000
+--tool=map
+--record-stack-frame
+--sample-size=400000
+--record-mem-allocations
+--app-working-dir=C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug
+--
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe
