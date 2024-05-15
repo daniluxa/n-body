@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
- <is_snapshot type="bool">false</is_snapshot>
- <is_temporary type="bool">false</is_temporary>
  <rdmgr>
-  <timestamp type="u64_t">1715756262</timestamp>
+  <timestamp type="u64_t">1715758434</timestamp>
   <hostname>PROGRAMMER20.amplituda.loc</hostname>
   <os>windows</os>
   <product>Intel® Advisor 2024.1.0</product>

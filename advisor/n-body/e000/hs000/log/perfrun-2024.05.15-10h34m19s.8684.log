@@ -1,0 +1,103 @@
+48 [25200] INFO perfrun.launcher <> - Launcher main begin
+54 [25200] INFO perfrun.launcher <> - MessageCatalogInit finished
+54 [25200] INFO perfrun.launcher <> - Launcher instance created
+54 [25200] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\advixe-runss.exe --ui-output-format xml --ui-output-fd 5220 --option-file C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\config\runss.options 
+67 [25200] INFO perfrun.launcher <> - New signal handler callback was added
+113 [25200] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+113 [25200] INFO perfrun.launcher <> - create file finder object
+113 [25200] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000 pid = 4294967295
+120 [25200] INFO perfrun.launcher <> - create data directory = C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\data.0
+121 [25200] INFO perfrun.launcher <> - Creating the master collection flag
+126 [25200] INFO perfrun.launcher <> - Done creating the master collection flag
+126 [5356] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+127 [5356] INFO perfrun.sdk <> - Allocating TMU :C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\data.0\systemcollector-8684-PROGRAMMER20.amplituda.loc.sc
+127 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+129 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+129 [5356] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+129 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+129 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+129 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+129 [5356] INFO perfrun.mrte <> - system-wide mode is 0
+129 [5356] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+144 [5356] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\data.0
+144 [5356] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=PROGRAMMER20.amplituda.loc
+144 [5356] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:advixe_tpssmrte_javaprof_1.0
+144 [5356] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\runtime;C:\Python27;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\shumkin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\shumkin\AppData\Local\Programs\Python\Python312\;C:\Users\shumkin\AppData\Local\Programs\Python\Launcher\;C:\Python27;C:\Users\shumkin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\;
+144 [5356] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+144 [5356] INFO perfrun.mrte <> - COR_PROFILER={10337B79-F6CD-4df9-8D18-26A67272096B}
+144 [5356] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+144 [5356] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+144 [5356] INFO perfrun.mrte <> - CORECLR_PROFILER={10337B79-F6CD-4df9-8D18-26A67272096B}
+144 [5356] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64/advixe_samplingmrte_clrprof_1.0.dll
+144 [5356] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+144 [5356] INFO perfrun.mrte <> - Data directory: C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\data.0
+144 [5356] INFO perfrun.mrte <> - Mrte plugin is initialized
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.tpss <> - initialize tpss controller
+144 [5356] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+144 [5356] INFO perfrun.tpss <> - default obj-size-min=1024
+144 [5356] INFO perfrun.tpss <> - default hash-table-size=0
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+144 [5356] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+145 [25200] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\runtime;C:\Python27;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\shumkin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\shumkin\AppData\Local\Programs\Python\Python312\;C:\Users\shumkin\AppData\Local\Programs\Python\Launcher\;C:\Python27;C:\Users\shumkin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\;
+145 [25200] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin32\runtime\ittnotify_collector.dll
+145 [25200] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\runtime\ittnotify_collector.dll
+145 [25200] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+145 [25200] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin32\runtime\ittnotify_collector.dll
+145 [25200] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\runtime\ittnotify_collector.dll
+145 [25200] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+145 [25200] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+145 [25200] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+145 [25200] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+145 [25200] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\data.0
+145 [25200] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = PROGRAMMER20.amplituda.loc
+145 [25200] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:advixe_tpssmrte_javaprof_1.0
+145 [25200] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\runtime;C:\Python27;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\shumkin\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\shumkin\AppData\Local\Programs\Python\Python312\;C:\Users\shumkin\AppData\Local\Programs\Python\Launcher\;C:\Python27;C:\Users\shumkin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Intel\oneAPI\compiler\latest\bin\;
+145 [25200] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+145 [25200] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {10337B79-F6CD-4df9-8D18-26A67272096B}
+145 [25200] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+145 [25200] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+145 [25200] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {10337B79-F6CD-4df9-8D18-26A67272096B}
+145 [25200] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64/advixe_samplingmrte_clrprof_1.0.dll
+146 [25200] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+146 [25200] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+157 [25200] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe' is valid.
+157 [25200] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe 1000 10
+159 [25200] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\pin.exe -error_file C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1\bin32\tpsstool.dll -server_name tpss_ipc.8684 -prd_dir C:\Program Files (x86)\Intel\oneAPI\advisor\2024.1 -- C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe 1000 10
+160 [25200] INFO perfrun.launcher <> - ProcessCreator object was created
+166 [25200] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+167 [5356] INFO perfrun.itt <> - start itt controller for pid #23588
+167 [5356] INFO perfrun.tpss <> - start tpss controller for pid #23588
+228 [25200] INFO perfrun.launcher <> - Launcher: all plugins were started
+228 [25200] INFO perfrun.launcher <> - DirectoryMonitor object was created
+228 [25200] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+228 [25200] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+228 [25200] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+228 [25200] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+235 [25200] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+1327 [25200] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+1336 [5356] INFO perfrun.itt <> - detach itt controller
+1337 [5356] INFO perfrun.itt <> - detach itt controller done
+1337 [5356] INFO perfrun.tpss <> - stop tpss controller
+1337 [5356] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\data.0\systemcollector-8684-PROGRAMMER20.amplituda.loc.sc
+1362 [5356] INFO perfrun.system <> - closed the system trace file: C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\e000\hs000\data.0\systemcollector-8684-PROGRAMMER20.amplituda.loc.sc
+1362 [25200] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+1362 [25200] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+1362 [25200] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+1362 [25200] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+1362 [25200] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+1363 [25200] INFO perfrun.launcher <> - Application exit code: 0
+1363 [25200] INFO perfrun.launcher <> - Exit code: 0

@@ -7,7 +7,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ver0\\GSimulation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\types.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ver0\\types.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,20 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\main.cpp",
+              "RelativeDocumentMoniker": "ver0\\main.cpp",
+              "ToolTip": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\main.cpp",
+              "RelativeToolTip": "ver0\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-15T07:30:39.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "math.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h",
-              "ToolTip": "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h",
-              "ViewState": "AQIAAKsCAAAAAAAAAADwv74CAABQAAAA",
+              "Title": "types.hpp",
+              "DocumentMoniker": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\types.hpp",
+              "RelativeDocumentMoniker": "ver0\\types.hpp",
+              "ToolTip": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\types.hpp",
+              "RelativeToolTip": "ver0\\types.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-14T07:39:16.667Z",
-              "IsPinned": true
+              "WhenOpened": "2024-05-15T07:30:37.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,22 +58,10 @@
               "RelativeDocumentMoniker": "ver0\\GSimulation.cpp",
               "ToolTip": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\GSimulation.cpp",
               "RelativeToolTip": "ver0\\GSimulation.cpp",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAjwJIAAAAHAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-14T07:39:17.757Z",
+              "WhenOpened": "2024-05-15T07:29:29.833Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\main.cpp",
-              "RelativeDocumentMoniker": "ver0\\main.cpp",
-              "ToolTip": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\HPS\\n-body\\ver0\\main.cpp",
-              "RelativeToolTip": "ver0\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-14T07:13:35.808Z"
             }
           ]
         }

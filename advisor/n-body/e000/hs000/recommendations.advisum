@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="144"
+           routine="computeAcc"
+           is_vectorized="0"
+           self_time="3.884517E-01"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="18"
+           priority="0">
+           <recommendation id="rec_sqrt_c" title="Enable the use of approximate sqrt instructions" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="144"
+           routine="computeAcc"
+           is_vectorized="0"
+           self_time="3.884517E-01"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="18"
+           priority="0">
+           <recommendation id="rec_fma_target_avx2_isa_c" title="Target the AVX2 ISA" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="144"
+           routine="computeAcc"
+           is_vectorized="0"
+           self_time="3.884517E-01"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="18"
+           priority="0">
+           <recommendation id="rec_sqrtdiv_enforce_vec_c" title="Force vectorization if possible" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="119"
+           routine="compute_p_energy"
+           is_vectorized="0"
+           self_time="6.584601E-02"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="14"
+           priority="0">
+           <recommendation id="rec_sqrt_c" title="Enable the use of approximate sqrt instructions" confidence="1" gain="-1"/>
+  </hotspot>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="219"
+           routine="GSimulation::start"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="0.000000E+00"
+           trip_counts=""
+           func_instance="17"
+           priority="0">
+           <recommendation id="rec_type_conversions_smallest_c" title="Use the smallest data type" confidence="1" gain="-1"/>
+  </hotspot>
+</IntelParallelAdvisorSummary >

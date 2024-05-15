@@ -2,7 +2,7 @@
 <root>
  <connectionOption>localhost</connectionOption>
  <rdmgr>
-  <timestamp type="u64_t">1715756239</timestamp>
+  <timestamp type="u64_t">1715758413</timestamp>
   <hostname>PROGRAMMER20.amplituda.loc</hostname>
   <os>windows</os>
   <product>Intel® Advisor 2024.1.0</product>
@@ -20,8 +20,8 @@
  <contextValues type="bag"/>
  <All_Configurations-All_Platforms>
   <per_group_workloads>
-   <tripcounts>tripcounts</tripcounts>
    <release>release</release>
+   <tripcounts>tripcounts</tripcounts>
   </per_group_workloads>
   <searchDirs>
    <searchCategory>
@@ -40,7 +40,7 @@
   <excludeFiles type="bag"/>
   <target_settings>
    <selected_workload>
-    <localhost>release</localhost>
+    <localhost>tripcounts</localhost>
    </selected_workload>
    <result_dir>
     <localhost>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body</localhost>
@@ -50,12 +50,119 @@
    </result_pattern>
    <workloads>
     <localhost>
+     <attach-survey type="pointer" type_id="dasID_cctrl2::AttachWorkload" ptr_type="dasID_cctrl2::IWorkload">
+      <workload>
+       <targetName>attach-survey</targetName>
+       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
+       <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
+       <attach.pid type="null"></attach.pid>
+       <search_directories type="bag"/>
+       <context>
+        <contextValue>
+         <id>auto_finalize</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>dataLimit</id>
+         <value type="s32_t">500</value>
+        </contextValue>
+        <contextValue>
+         <id>gpuSamplingInterval</id>
+         <value type="double">1</value>
+        </contextValue>
+        <contextValue>
+         <id>gpu_conditional_metrics</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>gpu_profiling</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>interval</id>
+         <value type="s32_t">10</value>
+        </contextValue>
+        <contextValue>
+         <id>keepCaches</id>
+         <value>clear</value>
+        </contextValue>
+        <contextValue>
+         <id>mklUserMode</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>modules_switch</id>
+         <value>knob.modules_switch.exclude</value>
+        </contextValue>
+        <contextValue>
+         <id>mrte_mode</id>
+         <value>auto</value>
+        </contextValue>
+        <contextValue>
+         <id>openclSourceAsm</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>process_for_analysis</id>
+         <value></value>
+        </contextValue>
+        <contextValue>
+         <id>profilePython</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>profile_intel_perf_libs</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>show_report</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>spillAnalysis</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>stackStitching</id>
+         <value type="bool">true</value>
+        </contextValue>
+        <contextValue>
+         <id>stackUnwindLimit</id>
+         <value type="s32_t">8388608</value>
+        </contextValue>
+        <contextValue>
+         <id>stackwalk</id>
+         <value>offline</value>
+        </contextValue>
+        <contextValue>
+         <id>static_instruction_mix</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>support_multi_isa_binaries</id>
+         <value type="bool">false</value>
+        </contextValue>
+        <contextValue>
+         <id>targetGPU</id>
+         <value>none</value>
+        </contextValue>
+        <contextValue>
+         <id>targetType</id>
+         <value>attach-survey</value>
+        </contextValue>
+        <contextValue>
+         <id>type_opt</id>
+         <value>cpu:stack</value>
+        </contextValue>
+       </context>
+      </workload>
+     </attach-survey>
      <attach-tripcounts type="pointer" type_id="dasID_cctrl2::AttachWorkload" ptr_type="dasID_cctrl2::IWorkload">
       <workload>
        <targetName>attach-tripcounts</targetName>
+       <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
        <attach.pid type="null"></attach.pid>
-       <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
        <search_directories type="bag"/>
        <context>
         <contextValue>
@@ -197,113 +304,6 @@
        </context>
       </workload>
      </attach-tripcounts>
-     <attach-survey type="pointer" type_id="dasID_cctrl2::AttachWorkload" ptr_type="dasID_cctrl2::IWorkload">
-      <workload>
-       <targetName>attach-survey</targetName>
-       <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
-       <attach.pid type="null"></attach.pid>
-       <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
-       <search_directories type="bag"/>
-       <context>
-        <contextValue>
-         <id>auto_finalize</id>
-         <value type="bool">true</value>
-        </contextValue>
-        <contextValue>
-         <id>dataLimit</id>
-         <value type="s32_t">500</value>
-        </contextValue>
-        <contextValue>
-         <id>gpuSamplingInterval</id>
-         <value type="double">1</value>
-        </contextValue>
-        <contextValue>
-         <id>gpu_conditional_metrics</id>
-         <value type="bool">false</value>
-        </contextValue>
-        <contextValue>
-         <id>gpu_profiling</id>
-         <value type="bool">false</value>
-        </contextValue>
-        <contextValue>
-         <id>interval</id>
-         <value type="s32_t">10</value>
-        </contextValue>
-        <contextValue>
-         <id>keepCaches</id>
-         <value>clear</value>
-        </contextValue>
-        <contextValue>
-         <id>mklUserMode</id>
-         <value type="bool">true</value>
-        </contextValue>
-        <contextValue>
-         <id>modules_switch</id>
-         <value>knob.modules_switch.exclude</value>
-        </contextValue>
-        <contextValue>
-         <id>mrte_mode</id>
-         <value>auto</value>
-        </contextValue>
-        <contextValue>
-         <id>openclSourceAsm</id>
-         <value type="bool">true</value>
-        </contextValue>
-        <contextValue>
-         <id>process_for_analysis</id>
-         <value></value>
-        </contextValue>
-        <contextValue>
-         <id>profilePython</id>
-         <value type="bool">false</value>
-        </contextValue>
-        <contextValue>
-         <id>profile_intel_perf_libs</id>
-         <value type="bool">true</value>
-        </contextValue>
-        <contextValue>
-         <id>show_report</id>
-         <value type="bool">true</value>
-        </contextValue>
-        <contextValue>
-         <id>spillAnalysis</id>
-         <value type="bool">false</value>
-        </contextValue>
-        <contextValue>
-         <id>stackStitching</id>
-         <value type="bool">true</value>
-        </contextValue>
-        <contextValue>
-         <id>stackUnwindLimit</id>
-         <value type="s32_t">8388608</value>
-        </contextValue>
-        <contextValue>
-         <id>stackwalk</id>
-         <value>offline</value>
-        </contextValue>
-        <contextValue>
-         <id>static_instruction_mix</id>
-         <value type="bool">false</value>
-        </contextValue>
-        <contextValue>
-         <id>support_multi_isa_binaries</id>
-         <value type="bool">false</value>
-        </contextValue>
-        <contextValue>
-         <id>targetGPU</id>
-         <value>none</value>
-        </contextValue>
-        <contextValue>
-         <id>targetType</id>
-         <value>attach-survey</value>
-        </contextValue>
-        <contextValue>
-         <id>type_opt</id>
-         <value>cpu:stack</value>
-        </contextValue>
-       </context>
-      </workload>
-     </attach-survey>
      <projection type="pointer" type_id="dasID_cctrl2::CompileWorkload" ptr_type="dasID_cctrl2::IWorkload">
       <workload>
        <targetName>projection</targetName>
@@ -489,12 +489,7 @@
      <suitability type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
       <workload>
        <targetName>suitability</targetName>
-       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch.userapppath>
-       <launch.userappworkdir>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch.userappworkdir>
-       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch_app.app_to_launch>
-       <launch_app.app_parameters>10000 10</launch_app.app_parameters>
        <use_app_dir_as_work_dir type="bool">true</use_app_dir_as_work_dir>
-       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch_app.working_folder>
        <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
        <search_directories type="bag"/>
        <context>
@@ -529,12 +524,12 @@
       <workload>
        <targetName>debug</targetName>
        <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
-       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch.userapppath>
-       <launch.userappworkdir>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch.userappworkdir>
-       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch_app.app_to_launch>
+       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe</launch.userapppath>
+       <launch.userappworkdir></launch.userappworkdir>
+       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe</launch_app.app_to_launch>
        <launch_app.app_parameters>1000 10</launch_app.app_parameters>
        <use_app_dir_as_work_dir type="bool">true</use_app_dir_as_work_dir>
-       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch_app.working_folder>
+       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug</launch_app.working_folder>
        <search_directories type="bag"/>
        <context>
         <contextValue>
@@ -604,12 +599,12 @@
       <workload>
        <targetName>map</targetName>
        <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
-       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch.userapppath>
-       <launch.userappworkdir>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch.userappworkdir>
-       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch_app.app_to_launch>
+       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe</launch.userapppath>
+       <launch.userappworkdir></launch.userappworkdir>
+       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe</launch_app.app_to_launch>
        <launch_app.app_parameters>1000 10</launch_app.app_parameters>
        <use_app_dir_as_work_dir type="bool">true</use_app_dir_as_work_dir>
-       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch_app.working_folder>
+       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug</launch_app.working_folder>
        <search_directories type="bag"/>
        <context>
         <contextValue>
@@ -686,12 +681,12 @@
        <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
        <launch_app.mpi_run type="bool">false</launch_app.mpi_run>
        <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
-       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch.userapppath>
-       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch_app.app_to_launch>
-       <launch.userappworkdir>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch.userappworkdir>
+       <launch.userappworkdir></launch.userappworkdir>
        <launch_app.mpi_max_rank type="null"></launch_app.mpi_max_rank>
+       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe</launch.userapppath>
+       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe</launch_app.app_to_launch>
        <launch_app.app_parameters>1000 10</launch_app.app_parameters>
-       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch_app.working_folder>
+       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug</launch_app.working_folder>
        <search_directories type="bag"/>
        <context>
         <contextValue>
@@ -796,16 +791,16 @@
      <tripcounts type="pointer" type_id="dasID_cctrl2::ApplicationWorkload" ptr_type="dasID_cctrl2::IWorkload">
       <workload>
        <targetName>tripcounts</targetName>
+       <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
        <launch_app.inherit_sys_environment type="bool">true</launch_app.inherit_sys_environment>
        <launch_app.mpi_run type="bool">false</launch_app.mpi_run>
-       <result_directory.path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body\r@@@{at}</result_directory.path>
        <launch_app.mpi_max_rank type="null"></launch_app.mpi_max_rank>
-       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch.userapppath>
-       <launch.userappworkdir>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch.userappworkdir>
-       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug\n-body.exe</launch_app.app_to_launch>
+       <launch.userapppath>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe</launch.userapppath>
+       <launch.userappworkdir></launch.userappworkdir>
+       <launch_app.app_to_launch>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug\n-body.exe</launch_app.app_to_launch>
        <launch_app.app_parameters>1000 10</launch_app.app_parameters>
        <use_app_dir_as_work_dir type="bool">true</use_app_dir_as_work_dir>
-       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\x64\Debug</launch_app.working_folder>
+       <launch_app.working_folder>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\Debug</launch_app.working_folder>
        <search_directories type="bag"/>
        <context>
         <contextValue>
@@ -950,8 +945,5 @@
     </localhost>
    </workloads>
   </target_settings>
-  <packed_snapshot>
-   <path>C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\advisor\n-body</path>
-  </packed_snapshot>
  </All_Configurations-All_Platforms>
 </root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="144"
+           routine="computeAcc"
+           is_vectorized="0"
+           self_time="3.884517E-01"
+           total_time="3.884517E-01"
+           trip_counts=""
+           func_instance="18"
+           priority="0"/>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="119"
+           routine="compute_p_energy"
+           is_vectorized="0"
+           self_time="6.584601E-02"
+           total_time="1.014799E-01"
+           trip_counts=""
+           func_instance="14"
+           priority="0"/>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="219"
+           routine="GSimulation::start"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="5.188678E-01"
+           trip_counts=""
+           func_instance="17"
+           priority="0"/>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="138"
+           routine="computeAcc"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.884517E-01"
+           trip_counts=""
+           func_instance="20"
+           priority="0"/>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-body\ver0\GSimulation.cpp"
+           line_no="117"
+           routine="compute_p_energy"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.014799E-01"
+           trip_counts=""
+           func_instance="16"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

@@ -133,49 +133,55 @@ double compute_p_energy(Particle *particles, int num_parts)
   return p_energy / 2;
 }
 
-void computeAcc(Particle *buff, int part_num)
+void computeAcc(Particle* src, Particle* temp, real_type step, int part_num) // part_num - число частиц
 {
-  for (int i = 0; i < part_num; i++) // update acceleration
-  {
-    buff[i].acc[0] = 0.;
-    buff[i].acc[1] = 0.;
-    buff[i].acc[2] = 0.;
-
-    for (int j = 0; j < part_num; j++)
+    for (int i = 0; i < part_num; i++) // update acceleration
     {
-      if (i != j)
-      {
-        real_type dx, dy, dz;
-        real_type distanceSqr = 0.0;
-        real_type distanceInv = 0.0;
+        src[i].acc[0] = 0.;
+        src[i].acc[1] = 0.;
+        src[i].acc[2] = 0.;
 
-        dx = buff[j].pos[0] - buff[i].pos[0];
-        dy = buff[j].pos[1] - buff[i].pos[1];
-        dz = buff[j].pos[2] - buff[i].pos[2];
+        for (int j = 0; j < part_num; j++)
+        {
+            if (i != j)
+            {
+                real_type dx, dy, dz;
+                real_type distanceSqr = 0.0;
+                real_type distanceInv = 0.0;
 
-        distanceSqr = std::pow(dx, 2) + std::pow(dy, 2) + std::pow(dz, 2) + softeningSquared;
-        distanceInv = 1.0 / sqrt(distanceSqr);
+                dx = src[j].pos[0] - src[i].pos[0]; 
+                dy = src[j].pos[1] - src[i].pos[1]; 
+                dz = src[j].pos[2] - src[i].pos[2]; 
 
-        buff[i].acc[0] += dx * G * buff[j].mass * std::pow(distanceInv, 3);
-        buff[i].acc[1] += dy * G * buff[j].mass * std::pow(distanceInv, 3);
-        buff[i].acc[2] += dz * G * buff[j].mass * std::pow(distanceInv, 3);
-      }
+                distanceSqr = dx * dx + dy * dy + dz * dz + softeningSquared; 
+                distanceInv = 1.0 / sqrt(distanceSqr);                       
+
+                temp[i].acc[0] = src[i].acc[0] + dx * G * src[j].mass * distanceInv * distanceInv * distanceInv; 
+                temp[i].acc[1] = src[i].acc[1] + dy * G * src[j].mass * distanceInv * distanceInv * distanceInv; 
+                temp[i].acc[2] = src[i].acc[2] + dz * G * src[j].mass * distanceInv * distanceInv * distanceInv; 
+            }
+        }
     }
-  }
 }
 
-void update_pos(Particle *dst, const Particle *src_1, const Particle *src_2, double coef, int part_num)
+void updatePos(Particle* dist, Particle* source, Particle* newparts, real_type step, int part_num)
 {
-  for (int i = 0; i < part_num; ++i)
-  {
-    dst[i].pos[0] = src_1[i].pos[0] + src_2[i].vel[0] * coef;
-    dst[i].pos[1] = src_1[i].pos[1] + src_2[i].vel[1] * coef;
-    dst[i].pos[2] = src_1[i].pos[2] + src_2[i].vel[2] * coef;
 
-    dst[i].vel[0] = src_1[i].vel[0] + src_2[i].acc[0] * coef;
-    dst[i].vel[1] = src_1[i].vel[1] + src_2[i].acc[1] * coef;
-    dst[i].vel[2] = src_1[i].vel[2] + src_2[i].acc[2] * coef;
-  }
+    for (int i = 0; i < part_num; ++i) // update position and velocity
+    {
+
+        newparts[i].vel[0] += newparts[i].acc[0] * step;
+        newparts[i].vel[1] += newparts[i].acc[1] * step;
+        newparts[i].vel[2] += newparts[i].acc[2] * step;
+
+        dist[i].pos[0] = source[i].pos[0] + newparts[i].vel[0] * step;
+        dist[i].pos[1] = source[i].pos[1] + newparts[i].vel[1] * step;
+        dist[i].pos[2] = source[i].pos[2] + newparts[i].vel[2] * step;
+
+        dist[i].vel[0] = source[i].vel[0] + newparts[i].acc[0] * step;
+        dist[i].vel[1] = source[i].vel[1] + newparts[i].acc[1] * step;
+        dist[i].vel[2] = source[i].vel[2] + newparts[i].acc[2] * step;
+    }
 }
 
 void GSimulation::start()
@@ -197,7 +203,7 @@ void GSimulation::start()
   _energy = energy_k + energy_p;
   double impulse[] = {0, 0, 0};
   compute_impulse(particles, n, impulse);
-  _impulse = sqrt(pow(impulse[0], 2) + pow(impulse[1], 2) + pow(impulse[2], 2));
+  _impulse = sqrt(impulse[0] * impulse[0] + impulse[1] * impulse[1] + impulse[2] * impulse[2]);
 
   std::cout << "Initial system energy k: " << energy_k << " p:" << energy_p << " Sum: " << _energy << " Impulse: " << _impulse << std::endl;
 
@@ -215,8 +221,27 @@ void GSimulation::start()
     ts0 += time.start();
 
     // Simple Euler Method
-    computeAcc(particles, n);
-    update_pos(particles, particles, particles, dt / 2, n);
+    Particle* tmp = new Particle[n];
+    Particle* k1 = new Particle[n];
+    computeAcc(particles, k1, 0, n);
+    updatePos(tmp, particles, k1, 0, n);
+
+    Particle* k2 = new Particle[n];
+    computeAcc(particles, k2, dt / 2, n);
+    updatePos(tmp, particles, k2, dt / 2, n);
+
+    Particle* k3 = new Particle[n];
+    computeAcc(particles, k2, dt * 2 / 3, n);
+    updatePos(tmp, particles, k2, dt * 2 / 3, n);
+
+    updatePos(particles, particles, k1, dt / 4, n);
+    updatePos(particles, particles, k2, 0, n);
+    updatePos(particles, particles, k3, dt * 3 / 4, n);
+
+    delete[] k1;
+    delete[] k2;
+    delete[] k3;
+    delete[] tmp;
 
     energy_k = compute_k_energy(particles, n);
     energy_p = compute_p_energy(particles, n);
