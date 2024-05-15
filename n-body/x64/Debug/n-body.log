@@ -1,0 +1,10 @@
+﻿C:\Users\shumkin\Documents\GitHub\Education\heterogeneous_calculations_bdz1\n-body\ver0\GSimulation.cpp(25,22): : warning : unused variable 'rd' [-Wunused-variable]
+     25 |   std::random_device rd;
+        |                      ^~
+C:\Users\shumkin\Documents\GitHub\Education\heterogeneous_calculations_bdz1\n-body\ver0\GSimulation.cpp(39,22): : warning : unused variable 'rd' [-Wunused-variable]
+     39 |   std::random_device rd;
+        |                      ^~
+C:\Users\shumkin\Documents\GitHub\Education\heterogeneous_calculations_bdz1\n-body\ver0\GSimulation.cpp(64,22): : warning : unused variable 'rd' [-Wunused-variable]
+     64 |   std::random_device rd;
+        |                      ^~
+  3 warnings generated.

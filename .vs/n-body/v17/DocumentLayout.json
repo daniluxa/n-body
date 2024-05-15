@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\heterogeneous_calculations_bdz1\\n-body\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27AB1-947A-4C01-8575-A65C170B7D0A}|n-body.vcxproj|C:\\Users\\shumkin\\Documents\\GitHub\\Education\\heterogeneous_calculations_bdz1\\n-body\\ver0\\GSimulation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84D27AB1-947A-4C01-8575-A65C170B7D0A}|n-body.vcxproj|solutionrelative:ver0\\GSimulation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27AB1-947A-4C01-8575-A65C170B7D0A}|n-body.vcxproj|C:\\PROGRAM FILES (X86)\\INTEL\\ONEAPI\\COMPILER\\2024.1\\OPT\\COMPILER\\INCLUDE\\MATH.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27AB1-947A-4C01-8575-A65C170B7D0A}|n-body.vcxproj|C:\\Users\\shumkin\\Documents\\GitHub\\Education\\heterogeneous_calculations_bdz1\\n-body\\ver0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{84D27AB1-947A-4C01-8575-A65C170B7D0A}|n-body.vcxproj|solutionrelative:ver0\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "math.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h",
+              "ToolTip": "C:\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Intel\\oneAPI\\compiler\\2024.1\\opt\\compiler\\include\\math.h",
+              "ViewState": "AQIAAKsCAAAAAAAAAADwv74CAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-14T07:39:16.667Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GSimulation.cpp",
+              "DocumentMoniker": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\heterogeneous_calculations_bdz1\\n-body\\ver0\\GSimulation.cpp",
+              "RelativeDocumentMoniker": "ver0\\GSimulation.cpp",
+              "ToolTip": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\heterogeneous_calculations_bdz1\\n-body\\ver0\\GSimulation.cpp",
+              "RelativeToolTip": "ver0\\GSimulation.cpp",
+              "ViewState": "AQIAABMAAAAAAAAAAAAjwCsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-14T07:39:17.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\heterogeneous_calculations_bdz1\\n-body\\ver0\\main.cpp",
+              "RelativeDocumentMoniker": "ver0\\main.cpp",
+              "ToolTip": "C:\\Users\\shumkin\\Documents\\GitHub\\Education\\heterogeneous_calculations_bdz1\\n-body\\ver0\\main.cpp",
+              "RelativeToolTip": "ver0\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-14T07:13:35.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
